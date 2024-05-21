@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookHaven - Livraria online</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <img src="./midia/logo.jpg" alt="Logo BookHaven" id="logo-ggs">
+                <h1 class="site-title">BookHaven</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#destaques">Destaques</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#promocoes">Promoções</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="slider">
+            <div class="container">
+                <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="d-block w-100" src="https://i.pinimg.com/564x/78/36/47/783647f7c3c9dbd17953ee6bd5df8b98.jpg" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Descubra novos mundos em cada página</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="https://i.pinimg.com/564x/79/75/60/797560a4a4ddca1cf4239004c1892f35.jpg" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Sua próxima aventura literária começa aqui!</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="https://i.pinimg.com/564x/48/fe/b9/48feb98bbb935b16add6c0f7f63710a3.jpg" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Encontre o livro perfeito para você!</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-exemplo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaques">
+            <div class="container">
+                <h1>Destaques</h1>
+                <div class="linha-verde"></div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem 1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"></h4>
+                                <h5 class="card-subtitle">C</h5>
+                                <a href="#" class="btn btn-secondary" id="preco-cheio"><strong>R$ 299,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem 2.jpeg" alt="Capa do jogo Tekken 8">
+                            <div class="card-body">
+                                <h4 class="card-title"></h4>
+                                <h5 class="card-subtitle">C</h5>
+                                <a href="#" class="btn btn-secondary" id="preco-cheio"><strong>R$ 299,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem 3.webp" alt="Capa do jogo Dragon's Dogma II">
+                            <div class="card-body">
+                                <h4 class="card-title"></h4>
+                                <h5 class="card-subtitle">C</h5>
+                                <a href="#" class="btn btn-secondary" id="preco-cheio"><strong>R$ 299,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem 4.webp" alt="Capa do jogo Final Fantasy VII: Rebirth">
+                            <div class="card-body">
+                                <h4 class="card-title"></h4>
+                                <h5 class="card-subtitle">C</h5>
+                                <a href="#" class="btn btn-secondary" id="preco-cheio"><strong>R$ 349,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem 5.jpg" alt="Capa do jogo Helldivers II">
+                            <div class="card-body">
+                                <h4 class="card-title"></h4>
+                                <h5 class="card-subtitle">C</h5>
+                                <a href="#" class="btn btn-secondary" id="preco-cheio"><strong>R$ 179,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem 6.webp" alt="Capa do jogo Baldur's Gate 3">
+                            <div class="card-body">
+                                <h4 class="card-title"></h4>
+                                <h5 class="card-subtitle">C</h5>
+                                <a href="#" class="btn btn-secondary" id="preco-cheio"><strong>R$ 199,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes">
+            <div class="container">
+                <h1>Promoções</h1>
+                <div class="linha-verde"></div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem0.1.jpg" alt="Capa do jogo Tony Hawk's Pro Skater 1+2">
+                            <div class="card-body">
+                                <h4 class="card-title">Tony Hawk's Pro Skater 1+2</h4>
+                                <h5 class="card-subtitle">Esportes | Ação | Arcade</h5>
+                                <a href="#" class="btn btn-success" id="caixa-promo"><strong>50%</strong></a>
+                                <a href="#" class="btn btn-secondary" id="preco-promo"><strong>R$ 99,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem0.2.jpg" alt="Capa do jogo Devil May Cry 5: Special Edition">
+                            <div class="card-body">
+                                <h4 class="card-title">Devil May Cry 5: Special Edition</h4>
+                                <h5 class="card-subtitle">Ação | Hack 'n Slash</h5>
+                                <a href="#" class="btn btn-success" id="caixa-promo"><strong>66%</strong></a>
+                                <a href="#" class="btn btn-secondary" id="preco-promo"><strong>R$ 79,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem0.3.jpg" alt="Capa do jogo Resident Evil 7: Gold Edition">
+                            <div class="card-body">
+                                <h4 class="card-title">Resident Evil 7: Gold Edition</h4>
+                                <h5 class="card-subtitle">Terror | Tiro</h5>
+                                <a href="#" class="btn btn-success" id="caixa-promo"><strong>75%</strong></a>
+                                <a href="#" class="btn btn-secondary" id="preco-promo"><strong>R$ 49,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem0.4.jpeg" alt="Capa do jogo Control">
+                            <div class="card-body">
+                                <h4 class="card-title">Control</h4>
+                                <h5 class="card-subtitle">Ação | Aventura</h5>
+                                <a href="#" class="btn btn-success" id="caixa-promo"><strong>75%</strong></a>
+                                <a href="#" class="btn btn-secondary" id="preco-promo"><strong>R$ 59,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem0.5.jpeg" alt="Capa do jogo Ghostrunner">
+                            <div class="card-body">
+                                <h4 class="card-title">Ghostrunner</h4>
+                                <h5 class="card-subtitle">Ação | Plataforma</h5>
+                                <a href="#" class="btn btn-success" id="caixa-promo"><strong>50%</strong></a>
+                                <a href="#" class="btn btn-secondary" id="preco-promo"><strong>R$ 89,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <img src="./midia/imagem0.6.jpeg" alt="Capa do jogo Shadow of the Tomb Raider">
+                            <div class="card-body">
+                                <h4 class="card-title">Shadow of the Tomb Raider</h4>
+                                <h5 class="card-subtitle">Ação | Aventura</h5>
+                                <a href="#" class="btn btn-success" id="caixa-promo"><strong>80%</strong></a>
+                                <a href="#" class="btn btn-secondary" id="preco-promo"><strong>R$ 39,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Desenvolvido por Pedro Garcia | 2024</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
