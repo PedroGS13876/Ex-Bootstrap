@@ -87,3 +87,10 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+/* Novo CSS para ajustar o tamanho das imagens nas seções Destaques e Promoções */
+#destaques .card img, #promocoes .card img {
+    height: 600px; /* Defina a altura desejada */
+    width: 100%;   /* Mantém a largura ajustada ao container */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
